@@ -1,0 +1,105 @@
+2025-06-02 15:31:13.614 IST [25828] LOG:  starting PostgreSQL 17.4 on x86_64-windows, compiled by msvc-19.42.34436, 64-bit
+2025-06-02 15:31:13.628 IST [25828] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-06-02 15:31:13.628 IST [25828] LOG:  listening on IPv6 address "::1", port 5432
+2025-06-02 15:31:14.032 IST [51356] LOG:  database system was interrupted; last known up at 2025-06-01 15:21:24 IST
+2025-06-02 15:31:16.756 IST [51356] LOG:  database system was not properly shut down; automatic recovery in progress
+2025-06-02 15:31:16.767 IST [51356] LOG:  redo starts at 0/25AE3D8
+2025-06-02 15:31:16.767 IST [51356] LOG:  invalid record length at 0/25AE4E0: expected at least 24, got 0
+2025-06-02 15:31:16.767 IST [51356] LOG:  redo done at 0/25AE4A8 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2025-06-02 15:31:16.780 IST [56104] LOG:  checkpoint starting: end-of-recovery immediate wait
+2025-06-02 15:31:16.804 IST [56104] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.004 s, total=0.026 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/25AE4E0, redo lsn=0/25AE4E0
+2025-06-02 15:31:17.110 IST [25828] LOG:  database system is ready to accept connections
+2025-06-02 15:43:47.972 IST [18676] LOG:  starting PostgreSQL 17.4 on x86_64-windows, compiled by msvc-19.42.34436, 64-bit
+2025-06-02 15:43:47.979 IST [18676] LOG:  could not bind IPv4 address "127.0.0.1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+	
+2025-06-02 15:43:47.979 IST [18676] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2025-06-02 15:43:47.979 IST [18676] LOG:  could not bind IPv6 address "::1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+	
+2025-06-02 15:43:47.979 IST [18676] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2025-06-02 15:43:47.980 IST [18676] WARNING:  could not create listen socket for "localhost"
+2025-06-02 15:43:47.980 IST [18676] FATAL:  could not create any TCP/IP sockets
+2025-06-02 15:43:47.983 IST [18676] LOG:  database system is shut down
+2025-06-02 15:43:50.650 IST [22132] LOG:  starting PostgreSQL 17.4 on x86_64-windows, compiled by msvc-19.42.34436, 64-bit
+2025-06-02 15:43:50.659 IST [22132] LOG:  could not bind IPv4 address "127.0.0.1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+	
+2025-06-02 15:43:50.659 IST [22132] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2025-06-02 15:43:50.659 IST [22132] LOG:  could not bind IPv6 address "::1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+	
+2025-06-02 15:43:50.659 IST [22132] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2025-06-02 15:43:50.659 IST [22132] WARNING:  could not create listen socket for "localhost"
+2025-06-02 15:43:50.659 IST [22132] FATAL:  could not create any TCP/IP sockets
+2025-06-02 15:43:50.661 IST [22132] LOG:  database system is shut down
+2025-06-02 15:43:53.149 IST [21388] LOG:  starting PostgreSQL 17.4 on x86_64-windows, compiled by msvc-19.42.34436, 64-bit
+2025-06-02 15:43:53.156 IST [21388] LOG:  could not bind IPv4 address "127.0.0.1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+	
+2025-06-02 15:43:53.156 IST [21388] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2025-06-02 15:43:53.156 IST [21388] LOG:  could not bind IPv6 address "::1": Only one usage of each socket address (protocol/network address/port) is normally permitted.
+	
+2025-06-02 15:43:53.156 IST [21388] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2025-06-02 15:43:53.156 IST [21388] WARNING:  could not create listen socket for "localhost"
+2025-06-02 15:43:53.157 IST [21388] FATAL:  could not create any TCP/IP sockets
+2025-06-02 15:43:53.159 IST [21388] LOG:  database system is shut down
+2025-06-02 15:53:32.162 IST [14368] LOG:  starting PostgreSQL 17.4 on x86_64-windows, compiled by msvc-19.42.34436, 64-bit
+2025-06-02 15:53:32.168 IST [14368] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-06-02 15:53:32.168 IST [14368] LOG:  listening on IPv6 address "::1", port 5432
+2025-06-02 15:53:32.352 IST [23120] LOG:  database system was interrupted; last known up at 2025-06-02 15:35:19 IST
+2025-06-02 15:53:33.068 IST [23120] LOG:  database system was not properly shut down; automatic recovery in progress
+2025-06-02 15:53:33.073 IST [23120] LOG:  redo starts at 0/25AE608
+2025-06-02 15:53:33.073 IST [23120] LOG:  invalid record length at 0/25AE640: expected at least 24, got 0
+2025-06-02 15:53:33.073 IST [23120] LOG:  redo done at 0/25AE608 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2025-06-02 15:53:33.079 IST [22756] LOG:  checkpoint starting: end-of-recovery immediate wait
+2025-06-02 15:53:33.093 IST [22756] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.003 s, total=0.016 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/25AE640, redo lsn=0/25AE640
+2025-06-02 15:53:33.245 IST [14368] LOG:  database system is ready to accept connections
+2025-06-02 15:53:44.655 IST [22612] FATAL:  database "vc_master" does not exist
+2025-06-02 15:53:46.277 IST [22752] FATAL:  database "vc_master" does not exist
+2025-06-02 15:57:18.618 IST [21396] FATAL:  database "vc_master" does not exist
+2025-06-02 15:57:20.191 IST [11332] FATAL:  database "vc_master" does not exist
+2025-06-02 15:58:10.531 IST [23384] ERROR:  current database cannot be renamed
+2025-06-02 15:58:10.531 IST [23384] STATEMENT:  ALTER DATABASE vc_management RENAME TO vc_master
+2025-06-02 15:58:20.720 IST [23384] ERROR:  current database cannot be renamed
+2025-06-02 15:58:20.720 IST [23384] STATEMENT:  ALTER DATABASE vc_management RENAME TO vc_master
+2025-06-02 15:58:32.017 IST [19160] ERROR:  database "vc_master" does not exist
+2025-06-02 15:58:32.017 IST [19160] STATEMENT:  DROP DATABASE vc_master
+2025-06-02 15:58:33.096 IST [22756] LOG:  checkpoint starting: time
+2025-06-02 15:58:57.778 IST [15872] ERROR:  database "vc_management" is being accessed by other users
+2025-06-02 15:58:57.778 IST [15872] DETAIL:  There are 2 other sessions using the database.
+2025-06-02 15:58:57.778 IST [15872] STATEMENT:  DROP DATABASE vc_management
+2025-06-02 16:00:19.351 IST [22756] LOG:  checkpoint complete: wrote 972 buffers (5.9%); 0 WAL file(s) added, 0 removed, 0 recycled; write=105.945 s, sync=0.296 s, total=106.256 s; sync files=300, longest=0.003 s, average=0.001 s; distance=4544 kB, estimate=4544 kB; lsn=0/2A1E970, redo lsn=0/2A1E8E0
+2025-06-02 16:03:33.379 IST [22756] LOG:  checkpoint starting: time
+2025-06-02 16:05:19.580 IST [22756] LOG:  checkpoint complete: wrote 972 buffers (5.9%); 0 WAL file(s) added, 0 removed, 0 recycled; write=105.943 s, sync=0.246 s, total=106.202 s; sync files=300, longest=0.009 s, average=0.001 s; distance=4544 kB, estimate=4544 kB; lsn=0/2E8ECE0, redo lsn=0/2E8EC50
+2025-06-02 16:09:57.037 IST [14368] LOG:  server process (PID 20352) was terminated by exception 0x40010004
+2025-06-02 16:09:57.037 IST [14368] HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+2025-06-02 16:09:57.038 IST [14368] LOG:  terminating any other active server processes
+2025-06-02 16:09:57.341 IST [14368] LOG:  all server processes terminated; reinitializing
+2025-06-02 16:09:57.709 IST [14368] LOG:  startup process (PID 23468) was terminated by exception 0xC000026B
+2025-06-02 16:09:57.709 IST [14368] HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+2025-06-02 16:09:57.709 IST [14368] LOG:  aborting startup due to startup process failure
+2025-06-02 16:09:57.712 IST [14368] LOG:  database system is shut down
+2025-06-05 19:48:07.826 IST [31772] LOG:  starting PostgreSQL 17.4 on x86_64-windows, compiled by msvc-19.42.34436, 64-bit
+2025-06-05 19:48:07.831 IST [31772] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-06-05 19:48:07.831 IST [31772] LOG:  listening on IPv6 address "::1", port 5432
+2025-06-05 19:48:08.091 IST [25008] LOG:  database system was interrupted; last known up at 2025-06-05 17:53:50 IST
+2025-06-05 19:48:09.603 IST [25008] LOG:  database system was not properly shut down; automatic recovery in progress
+2025-06-05 19:48:09.611 IST [25008] LOG:  redo starts at 0/2FF8C30
+2025-06-05 19:48:09.612 IST [25008] LOG:  invalid record length at 0/2FF8C68: expected at least 24, got 0
+2025-06-05 19:48:09.612 IST [25008] LOG:  redo done at 0/2FF8C30 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2025-06-05 19:48:09.620 IST [24648] LOG:  checkpoint starting: end-of-recovery immediate wait
+2025-06-05 19:48:09.637 IST [24648] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.004 s, total=0.019 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/2FF8C68, redo lsn=0/2FF8C68
+2025-06-05 19:48:09.864 IST [31772] LOG:  database system is ready to accept connections
+2025-06-05 20:03:09.670 IST [24648] LOG:  checkpoint starting: time
+2025-06-05 20:03:09.933 IST [24648] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.227 s, sync=0.004 s, total=0.263 s; sync files=2, longest=0.002 s, average=0.002 s; distance=3 kB, estimate=3 kB; lsn=0/2FF9BE8, redo lsn=0/2FF9B90
+2025-06-05 20:04:08.986 IST [31772] LOG:  received fast shutdown request
+2025-06-05 20:04:08.988 IST [31772] LOG:  aborting any active transactions
+2025-06-05 20:04:08.989 IST [30840] FATAL:  terminating connection due to administrator command
+2025-06-05 20:04:08.990 IST [10992] FATAL:  terminating connection due to administrator command
+2025-06-05 20:04:08.990 IST [31400] FATAL:  terminating connection due to administrator command
+2025-06-05 20:04:08.990 IST [13616] FATAL:  terminating connection due to administrator command
+2025-06-05 20:04:08.991 IST [33028] FATAL:  terminating connection due to administrator command
+2025-06-05 20:04:08.991 IST [6824] FATAL:  terminating connection due to administrator command
+2025-06-05 20:04:08.993 IST [11944] FATAL:  terminating connection due to administrator command
+2025-06-05 20:04:08.995 IST [28692] FATAL:  terminating connection due to administrator command
+2025-06-05 20:04:09.009 IST [31772] LOG:  background worker "logical replication launcher" (PID 2928) exited with exit code 1
+2025-06-05 20:04:09.040 IST [24648] LOG:  shutting down
+2025-06-05 20:04:09.042 IST [24648] LOG:  checkpoint starting: shutdown immediate
+2025-06-05 20:04:09.061 IST [24648] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.004 s, total=0.022 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=3 kB; lsn=0/2FF9F10, redo lsn=0/2FF9F10
+2025-06-05 20:04:09.077 IST [31772] LOG:  database system is shut down

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <!-- Console Appender -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+        </Console>
+
+        <!-- Rolling File Appenders for different log levels -->
+        
+        <!-- INFO Log -->
+        <RollingFile name="VCMInfoFile" fileName="logs/vcm_info.log"
+                     filePattern="logs/vcm_info-%d{yyyy-MM-dd}.log.gz">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10MB"/>
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+        </RollingFile>
+
+        <!-- ERROR Log -->
+        <RollingFile name="VCMErrorFile" fileName="logs/vcm_error.log"
+                     filePattern="logs/vcm_error-%d{yyyy-MM-dd}.log.gz">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10MB"/>
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+        </RollingFile>
+
+        <!-- DEBUG Log -->
+        <RollingFile name="VCMDebugFile" fileName="logs/vcm_debug.log"
+                     filePattern="logs/vcm_debug-%d{yyyy-MM-dd}.log.gz">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10MB"/>
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+        </RollingFile>
+
+        <!-- WARN Log -->
+        <RollingFile name="VCMWarnFile" fileName="logs/vcm_warn.log"
+                     filePattern="logs/vcm_warn-%d{yyyy-MM-dd}.log.gz">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10MB"/>
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+        </RollingFile>
+    </Appenders>
+
+
+    <Loggers>
+        <!-- Root Logger -->
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="VCMInfoFile"/>
+            <AppenderRef ref="VCMErrorFile"/>
+            <AppenderRef ref="VCMDebugFile"/>
+            <AppenderRef ref="VCMWarnFile"/>
+        </Root>
+
+        <!-- Specific Loggers -->
+        <Logger name="com.vcm" level="debug" additivity="false">
+            <AppenderRef ref="VCMDebugFile"/>
+        </Logger>
+
+        <Logger name="com.vcm.error" level="error" additivity="false">
+            <AppenderRef ref="VCMErrorFile"/>
+        </Logger>
+
+        <Logger name="com.vcm.warn" level="warn" additivity="false">
+            <AppenderRef ref="VCMWarnFile"/>
+        </Logger>
+    </Loggers>
+</Configuration>

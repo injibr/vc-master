@@ -1,0 +1,30 @@
+server:
+  port: 8085
+  servlet:
+      context-path: /master/api/v1
+spring:
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+  application:
+    name: vc_master
+  datasource:
+    url: jdbc:postgresql://localhost:5432/vc_master
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+    jpa:
+      hibernate:
+        ddl-auto: validate # Options: none, validate, update, create, create-drop
+      show-sql: true
+      properties:
+        hibernate:
+          format_sql: true
+          dialect: org.hibernate.dialect.PostgreSQLDialect
+
+aws:
+  access-key-id: to_set
+  secret-access-key: to_set
+  region: ap-south-1
+  s3.bucket-name: creditapp-test
